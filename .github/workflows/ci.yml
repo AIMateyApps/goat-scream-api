@@ -72,8 +72,7 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
-      - name: Build site
-        run: pnpm run build:site
+
 
       - name: Start server
         run: pnpm start &
