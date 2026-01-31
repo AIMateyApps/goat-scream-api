@@ -1,0 +1,22 @@
+{
+  "$schema": "https://raw.githubusercontent.com/OpenAPITools/openapi-generator-cli/master/apps/generator-cli/src/config.schema.json",
+  "spaces": 2,
+  "generator-cli": {
+    "version": "7.9.0",
+    "generators": {
+      "typescript-sdk": {
+        "generatorName": "typescript-fetch",
+        "inputSpec": "./docs/openapi.yaml",
+        "output": "./sdk/typescript",
+        "additionalProperties": {
+          "npmName": "@goatscreams/client",
+          "npmVersion": "0.1.0",
+          "typescriptThreePlus": true,
+          "supportsES6": true,
+          "useSingleRequestParameter": true,
+          "withInterfaces": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Questions / help
+    url: https://github.com/AIMateyApps/goat-scream-api/discussions
+    about: Start a Discussion for guidance, demos, or pairing.
+  - name: Security reports
+    url: mailto:security@bleatbox.dev
+    about: Please report vulnerabilities privately.

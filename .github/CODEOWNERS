@@ -1,0 +1,9 @@
+# Default reviewers for the Goat Screams API repo
+*       @akgrenier
+
+# Docs & marketing site
+/docs/  @akgrenier
+/site/  @akgrenier
+
+# CI + infrastructure
+.github/ @akgrenier

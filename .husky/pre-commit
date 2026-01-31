@@ -1,0 +1,8 @@
+# Source nvm to get node in PATH
+[ -s "$HOME/.nvm/nvm.sh" ] && . "$HOME/.nvm/nvm.sh"
+
+# Change to project root
+cd "$(dirname "$(dirname "$0")")" || exit
+
+# Run lint-staged (node should be in PATH after sourcing nvm)
+node_modules/.bin/lint-staged
