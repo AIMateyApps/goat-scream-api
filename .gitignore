@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log
+logs/
+audit/logs/
+
+# Python (analysis tools)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Local data & media
+screams/
+tmp/
+stats/
+
+# Test coverage
+coverage/
+
+# Generated SDK (regenerate with pnpm run generate:sdk)
+sdk/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Next.js static export debug artifacts (keep _next assets tracked!)
+public/*.txt
+
+# Local IDE/Assistant settings
+.claude/
+
+# Internal process & launch assets
+.internal/
+launch/
+audit/
+
+# Archived site files (moved to Bleatbox PWA)
+.local/
+
+# Redundant lock files (using pnpm)
+package-lock.json

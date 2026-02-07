@@ -1,0 +1,2738 @@
+{
+  "ytb-uwnBN9hoDE0-c001": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["A#4", "B4", "C5 (primary)", "B5"],
+    "source_file": "output/#TheMoment police were called over a screaming goat [uwnBN9hoDE0]/#TheMoment police were called over a screaming goat [uwnBN9hoDE0]_clip_001_12.76-13.74_conf0.13.mp3",
+    "intensity": 5
+  },
+  "ytb-uwnBN9hoDE0-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C#6", "D6", "F5", "F#5"],
+    "source_file": "Originals/#TheMoment police were called over a screaming goat [uwnBN9hoDE0].mp3",
+    "intensity": 10
+  },
+  "ytb-uwnBN9hoDE0-c003": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["A#4", "D#6 (primary)", "G3", "D#4", "E4"],
+    "source_file": "output/#TheMoment police were called over a screaming goat [uwnBN9hoDE0]/#TheMoment police were called over a screaming goat [uwnBN9hoDE0]_clip_003_33.88-34.86_conf0.11.mp3",
+    "intensity": 3
+  },
+  "ytb-uwnBN9hoDE0-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C#6", "D6", "F5", "F#5"],
+    "source_file": "Originals/#TheMoment police were called over a screaming goat [uwnBN9hoDE0].mp3",
+    "intensity": 10
+  },
+  "ytb-uwnBN9hoDE0-c005": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C#6", "D6", "F5", "F#5"],
+    "source_file": "Originals/#TheMoment police were called over a screaming goat [uwnBN9hoDE0].mp3",
+    "intensity": 10
+  },
+  "ytb-T52HW3nB_8Q-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["C6", "D#6", "D#4", "F4", "E4"],
+    "source_file": "Originals/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q].mp3",
+    "intensity": 3
+  },
+  "ytb-T52HW3nB_8Q-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["C6", "D#6", "D#4", "F4", "E4"],
+    "source_file": "Originals/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q].mp3",
+    "intensity": 3
+  },
+  "ytb-T52HW3nB_8Q-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["G#4", "A4 (primary)"],
+    "source_file": "output/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q]/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q]_clip_003_48.28-49.26_conf0.15.mp3",
+    "intensity": 2
+  },
+  "ytb-T52HW3nB_8Q-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["C6", "D#6", "D#4", "F4", "E4"],
+    "source_file": "Originals/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q].mp3",
+    "intensity": 3
+  },
+  "ytb-T52HW3nB_8Q-c005": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["C5", "F3", "D3", "A#4", "A4 (primary)"],
+    "source_file": "output/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q]/'Screams' Lead to Talkative Goat Simon [T52HW3nB_8Q]_clip_005_78.04-79.02_conf0.13.mp3",
+    "intensity": 2
+  },
+  "ytb-wxZyXk6FsqI-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "D#4", "G5", "F#5"],
+    "source_file": "Originals/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI].mp3",
+    "intensity": 6
+  },
+  "ytb-wxZyXk6FsqI-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "D#4", "G5", "F#5"],
+    "source_file": "Originals/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI].mp3",
+    "intensity": 6
+  },
+  "ytb-wxZyXk6FsqI-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "B5", "A5", "G#5", "G5"],
+    "source_file": "output/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI]/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI]_clip_003_13.72-15.18_conf0.38.mp3",
+    "intensity": 5
+  },
+  "ytb-wxZyXk6FsqI-c004": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "A5"],
+    "source_file": "output/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI]/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI]_clip_004_15.16-16.14_conf0.34.mp3",
+    "intensity": 3
+  },
+  "ytb-wxZyXk6FsqI-c005": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "D#4", "G5", "F#5"],
+    "source_file": "Originals/15 Screaming Goat Sound Variations in 30 Seconds [wxZyXk6FsqI].mp3",
+    "intensity": 6
+  },
+  "ytb-w3N6tm5ZzH0-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "B4", "A#5 (primary)", "A#4", "A5"],
+    "source_file": "Originals/64  angry goats screaming together [w3N6tm5ZzH0].mp3",
+    "intensity": 8
+  },
+  "ytb-w3N6tm5ZzH0-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "B4", "A#5 (primary)", "A#4", "A5"],
+    "source_file": "Originals/64  angry goats screaming together [w3N6tm5ZzH0].mp3",
+    "intensity": 8
+  },
+  "ytb-w3N6tm5ZzH0-c003": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "B4", "A#5 (primary)", "A#4", "A5"],
+    "source_file": "Originals/64  angry goats screaming together [w3N6tm5ZzH0].mp3",
+    "intensity": 8
+  },
+  "ytb-w3N6tm5ZzH0-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "D#5", "D6", "D5", "F#2"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_004_10.36-12.30_conf0.34.mp3",
+    "intensity": 2
+  },
+  "ytb-w3N6tm5ZzH0-c005": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "B5",
+    "tones_in_order": ["B5 (primary)", "B4", "A#5"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_005_13.24-14.70_conf0.36.mp3",
+    "intensity": 2
+  },
+  "ytb-w3N6tm5ZzH0-c006": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_006_14.68-16.62_conf0.49.mp3",
+    "intensity": 3
+  },
+  "ytb-w3N6tm5ZzH0-c007": {
+    "descriptor": "medium-length double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "E5", "D#5", "F5", "G#5"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_007_20.44-21.42_conf0.12.mp3",
+    "intensity": 2
+  },
+  "ytb-w3N6tm5ZzH0-c008": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["D#6", "B5", "F#5", "G5", "G4"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_008_23.32-24.30_conf0.46.mp3",
+    "intensity": 2
+  },
+  "ytb-w3N6tm5ZzH0-c009": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "A#4"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_009_24.76-27.66_conf0.32.mp3",
+    "intensity": 5
+  },
+  "ytb-w3N6tm5ZzH0-c010": {
+    "descriptor": "medium-length double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["D#6", "D6", "C#6", "D#5 (primary)", "F#5"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_010_30.04-31.02_conf0.11.mp3",
+    "intensity": 3
+  },
+  "ytb-w3N6tm5ZzH0-c011": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "A#5", "B5"],
+    "source_file": "output/64  angry goats screaming together [w3N6tm5ZzH0]/64  angry goats screaming together [w3N6tm5ZzH0]_clip_011_32.44-33.42_conf0.11.mp3",
+    "intensity": 3
+  },
+  "ytb-i-gP_e2thsQ-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["F4", "E4", "F#3", "F#4", "F3"],
+    "source_file": "Originals/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ].mp3",
+    "intensity": 3
+  },
+  "ytb-i-gP_e2thsQ-c002": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "narrow-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["A4 (primary)", "A#4"],
+    "source_file": "output/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ]/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ]_clip_002_2.68-3.66_conf0.18.mp3",
+    "intensity": 3
+  },
+  "ytb-i-gP_e2thsQ-c003": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["F4", "E4", "F#3", "F#4", "F3"],
+    "source_file": "Originals/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ].mp3",
+    "intensity": 3
+  },
+  "ytb-i-gP_e2thsQ-c004": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "narrow-range"],
+    "primary_note": "D5",
+    "tones_in_order": ["D5 (primary)", "D#5"],
+    "source_file": "output/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ]/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ]_clip_004_6.04-7.50_conf0.24.mp3",
+    "intensity": 3
+  },
+  "ytb-i-gP_e2thsQ-c005": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["F4", "E4", "F#3", "F#4", "F3"],
+    "source_file": "Originals/All Minecraft Screaming Goat Sounds [i-gP_e2thsQ].mp3",
+    "intensity": 3
+  },
+  "ytb-402GHupS4rY-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["F4", "E4", "B4", "C5", "C#5"],
+    "source_file": "Originals/BABY & GOAT TALKING , SCREAMING [402GHupS4rY].mp3",
+    "intensity": 2
+  },
+  "ytb-402GHupS4rY-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["F4", "E4", "B4", "C5", "C#5"],
+    "source_file": "Originals/BABY & GOAT TALKING , SCREAMING [402GHupS4rY].mp3",
+    "intensity": 2
+  },
+  "ytb-402GHupS4rY-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F5",
+    "tones_in_order": ["F5 (primary)", "A#3", "E5", "D#5", "D#4"],
+    "source_file": "output/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]_clip_003_4.12-5.58_conf0.51.mp3",
+    "intensity": 2
+  },
+  "ytb-402GHupS4rY-c004": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["F#4", "G4 (primary)", "B4", "C5", "G#4"],
+    "source_file": "output/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]_clip_004_5.56-7.02_conf0.32.mp3",
+    "intensity": 2
+  },
+  "ytb-402GHupS4rY-c005": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat"],
+    "primary_note": "E5",
+    "tones_in_order": ["E5 (primary)", "F5", "D#5", "F#5", "C#5"],
+    "source_file": "output/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]/BABY & GOAT TALKING , SCREAMING [402GHupS4rY]_clip_005_7.00-7.98_conf0.11.mp3",
+    "intensity": 2
+  },
+  "ytb-402GHupS4rY-c006": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["F4", "E4", "B4", "C5", "C#5"],
+    "source_file": "Originals/BABY & GOAT TALKING , SCREAMING [402GHupS4rY].mp3",
+    "intensity": 2
+  },
+  "ytb-Vw2jisSc47M-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["A#5", "B5", "C6", "C#6", "D#5"],
+    "source_file": "Originals/Baby Goat Screaming [Vw2jisSc47M].mp3",
+    "intensity": 4
+  },
+  "ytb-Vw2jisSc47M-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["A#5", "B5", "C6", "C#6", "D#5"],
+    "source_file": "Originals/Baby Goat Screaming [Vw2jisSc47M].mp3",
+    "intensity": 4
+  },
+  "ytb-Vw2jisSc47M-c003": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["A#5", "B5", "C6", "C#6", "D#5"],
+    "source_file": "Originals/Baby Goat Screaming [Vw2jisSc47M].mp3",
+    "intensity": 4
+  },
+  "ytb-Hk3v0mR57q8-c001": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["C#5 (primary)", "D5", "D4", "C#4", "C5"],
+    "source_file": "output/Baby goats 🐐 sound 💓❤️ #goat #animals #sound #viralvideo #viralshorts #viralshort [Hk3v0mR57q8]/Baby goats 🐐 sound 💓❤️ #goat #animals #sound #viralvideo #viralshorts #viralshort [Hk3v0mR57q8]_clip_001_0.00-1.74_conf0.77.mp3",
+    "intensity": 2
+  },
+  "ytb-Hk3v0mR57q8-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F5",
+    "tones_in_order": ["E5", "F5 (primary)", "A3", "D#5", "E4"],
+    "source_file": "output/Baby goats 🐐 sound 💓❤️ #goat #animals #sound #viralvideo #viralshorts #viralshort [Hk3v0mR57q8]/Baby goats 🐐 sound 💓❤️ #goat #animals #sound #viralvideo #viralshorts #viralshort [Hk3v0mR57q8]_clip_002_1.72-7.41_conf0.71.mp3",
+    "intensity": 2
+  },
+  "ytb-80BX0cg5_u0-c001": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A2",
+    "tones_in_order": ["G#4", "D#6", "D#5", "C#4", "A2 (primary)"],
+    "source_file": "output/FUNNY GOAT SCREAMING 🐐💖🤣 [80BX0cg5_u0]/FUNNY GOAT SCREAMING 🐐💖🤣 [80BX0cg5_u0]_clip_001_5.08-6.06_conf0.14.mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c001": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat"],
+    "primary_note": "C#3",
+    "tones_in_order": ["D#3", "E3", "D3", "C#3 (primary)"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_001_2.20-4.14_conf0.43.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E3", "D#3", "D3", "C#3", "C5"],
+    "source_file": "Originals/Funny Goats Screaming like Humans [nlYlNF30bVg].mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c003": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["A4", "A#4", "B4 (primary)", "C5", "B5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_003_8.44-10.38_conf0.62.mp3",
+    "intensity": 2
+  },
+  "ytb-nlYlNF30bVg-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "F5", "E5", "D#5", "G#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_004_10.36-12.78_conf0.45.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c005": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "B5", "D#4", "A5", "G#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_005_12.76-16.14_conf0.64.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c006": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["G4", "G#4", "E4", "F4", "A4 (primary)"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_006_17.08-21.90_conf0.69.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c007": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["A#5", "A4", "G2", "A2", "A5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_007_22.84-27.18_conf0.63.mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c008": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E3", "D#3", "D3", "C#3", "C5"],
+    "source_file": "Originals/Funny Goats Screaming like Humans [nlYlNF30bVg].mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c009": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E3", "D#3", "D3", "C#3", "C5"],
+    "source_file": "Originals/Funny Goats Screaming like Humans [nlYlNF30bVg].mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c010": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["G#4", "A4", "A#4 (primary)", "B4", "C5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_010_30.04-34.38_conf0.73.mp3",
+    "intensity": 5
+  },
+  "ytb-nlYlNF30bVg-c011": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["F#4 (primary)", "F4", "E4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_011_38.20-40.14_conf0.64.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c012": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["F#4 (primary)", "F4", "F5", "F#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_012_40.60-41.58_conf0.23.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c013": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G4", "G#4 (primary)", "F#4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_013_45.40-46.38_conf0.23.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c014": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F#5", "F5", "F4 (primary)"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_014_48.28-49.26_conf0.49.mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c015": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F4", "F#4", "F#5 (primary)", "F5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_015_49.72-51.18_conf0.65.mp3",
+    "intensity": 6
+  },
+  "ytb-nlYlNF30bVg-c016": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_016_51.16-52.14_conf0.10.mp3",
+    "intensity": 1
+  },
+  "ytb-nlYlNF30bVg-c017": {
+    "descriptor": "long double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_017_55.00-56.94_conf0.57.mp3",
+    "intensity": 5
+  },
+  "ytb-nlYlNF30bVg-c018": {
+    "descriptor": "long multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_018_57.40-59.34_conf0.50.mp3",
+    "intensity": 5
+  },
+  "ytb-nlYlNF30bVg-c019": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "F5",
+    "tones_in_order": ["E4", "A#2", "A#3", "B4", "A4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_019_62.20-64.14_conf0.29.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c020": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["E4", "D#4", "D4", "C#4", "F#2"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_020_66.52-67.98_conf0.13.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c021": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["A3", "A#3", "B2", "A#4", "C4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_021_68.92-69.90_conf0.48.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c022": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E3",
+    "tones_in_order": ["E3 (primary)", "A5", "F#3", "G3"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_022_76.12-77.58_conf0.61.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c023": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["D6", "C#6", "F3", "F4 (primary)", "F#4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_023_77.56-80.46_conf0.43.mp3",
+    "intensity": 5
+  },
+  "ytb-nlYlNF30bVg-c024": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E4", "E5", "F5", "D#5", "G4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_024_83.32-84.30_conf0.42.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c025": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["C5", "B4", "C#4", "D4", "E5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_025_85.72-87.18_conf0.80.mp3",
+    "intensity": 3
+  },
+  "ytb-nlYlNF30bVg-c026": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G4 (primary)", "F#4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_026_87.64-88.62_conf0.26.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c027": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["D4", "D#6", "F4 (primary)", "E4", "D#4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_027_89.56-91.02_conf0.69.mp3",
+    "intensity": 5
+  },
+  "ytb-nlYlNF30bVg-c028": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["C#5", "D5", "A#3", "D#5", "C#4"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_028_92.92-93.90_conf0.15.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c029": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["E4", "F4 (primary)", "D#4", "D4", "F#5"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_029_94.36-95.34_conf0.76.mp3",
+    "intensity": 4
+  },
+  "ytb-nlYlNF30bVg-c030": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "C#3",
+    "tones_in_order": ["E3", "D#3", "D#4", "D3", "C#3 (primary)"],
+    "source_file": "output/Funny Goats Screaming like Humans [nlYlNF30bVg]/Funny Goats Screaming like Humans [nlYlNF30bVg]_clip_030_98.68-100.14_conf0.40.mp3",
+    "intensity": 3
+  },
+  "ytb-1r4ArWJugvY-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["C4", "D4 (primary)", "D#4", "F5", "C#4"],
+    "source_file": "Originals/Goat - Sound Effect ｜ ProSounds [1r4ArWJugvY].mp3",
+    "intensity": 2
+  },
+  "ytb-X78GyIfrSV4-c001": {
+    "descriptor": "long multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "B5", "A5", "G#5"],
+    "source_file": "Originals/Goat Scream - Sound Effect (HD) [X78GyIfrSV4].mp3",
+    "intensity": 4
+  },
+  "ytb-lDjVnBbxjqo-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B3", "B4", "C5", "D4", "E5"],
+    "source_file": "Originals/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo].mp3",
+    "intensity": 5
+  },
+  "ytb-lDjVnBbxjqo-c002": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["D#4", "E4 (primary)", "F4", "F#4", "F5"],
+    "source_file": "output/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]_clip_002_22.84-23.82_conf0.46.mp3",
+    "intensity": 4
+  },
+  "ytb-lDjVnBbxjqo-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G#4 (primary)", "E2", "A#3", "D#5", "F3"],
+    "source_file": "output/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]_clip_003_23.80-24.78_conf0.20.mp3",
+    "intensity": 3
+  },
+  "ytb-lDjVnBbxjqo-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["D#3", "D3", "D4", "E5", "D#4"],
+    "source_file": "output/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]_clip_004_36.76-38.70_conf0.44.mp3",
+    "intensity": 4
+  },
+  "ytb-lDjVnBbxjqo-c005": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#3"],
+    "source_file": "output/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo]_clip_005_44.44-46.38_conf0.48.mp3",
+    "intensity": 4
+  },
+  "ytb-lDjVnBbxjqo-c006": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B3", "B4", "C5", "D4", "E5"],
+    "source_file": "Originals/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo].mp3",
+    "intensity": 5
+  },
+  "ytb-lDjVnBbxjqo-c007": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B3", "B4", "C5", "D4", "E5"],
+    "source_file": "Originals/Goat-Scream Cops ‘Can’t Help But Laugh’ [lDjVnBbxjqo].mp3",
+    "intensity": 5
+  },
+  "ytb-u2Gnrf3fRmE-c001": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["D5", "D#4", "D#5 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_001_4.60-5.58_conf0.15.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c002": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["C#4", "D4 (primary)", "C6", "C4", "E4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_002_14.68-15.66_conf0.32.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c003": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["G#5 (primary)", "G5", "G4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_003_19.96-20.94_conf0.13.mp3",
+    "intensity": 7
+  },
+  "ytb-u2Gnrf3fRmE-c004": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G#3",
+    "tones_in_order": ["A4", "A3", "D5", "G#3 (primary)", "G3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_004_21.40-22.86_conf0.34.mp3",
+    "intensity": 1
+  },
+  "ytb-u2Gnrf3fRmE-c005": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["E4", "A3", "E3", "F2", "F5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_005_22.84-25.74_conf0.43.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c006": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D#4",
+    "tones_in_order": ["D#4 (primary)", "D4", "D#5", "F4", "E5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_006_25.72-27.18_conf0.32.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c007": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#3",
+    "tones_in_order": ["E2", "G#2", "D#3 (primary)", "E3", "F3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_007_27.16-28.14_conf0.54.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c008": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A3",
+    "tones_in_order": ["A#5", "A3 (primary)", "G#3", "F5", "F3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_008_28.12-31.02_conf0.59.mp3",
+    "intensity": 6
+  },
+  "ytb-u2Gnrf3fRmE-c009": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["E2", "E5", "D#5", "G3", "A#3 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_009_31.96-33.42_conf0.16.mp3",
+    "intensity": 5
+  },
+  "ytb-u2Gnrf3fRmE-c010": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E3",
+    "tones_in_order": ["D4", "D#4", "E3 (primary)", "D#3", "F5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_010_56.92-57.90_conf0.10.mp3",
+    "intensity": 7
+  },
+  "ytb-u2Gnrf3fRmE-c011": {
+    "descriptor": "medium-length double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["B4", "C5 (primary)", "D#3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_011_58.36-59.34_conf0.30.mp3",
+    "intensity": 6
+  },
+  "ytb-u2Gnrf3fRmE-c012": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D3",
+    "tones_in_order": ["C#4", "D4", "D3 (primary)", "A3", "E3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_012_61.24-63.18_conf0.28.mp3",
+    "intensity": 5
+  },
+  "ytb-u2Gnrf3fRmE-c013": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["A#5", "A#3 (primary)", "D#4", "D#3", "A#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_013_63.16-64.14_conf0.13.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c014": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["C#4", "D4 (primary)", "D3", "C#3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_014_67.96-68.94_conf0.14.mp3",
+    "intensity": 6
+  },
+  "ytb-u2Gnrf3fRmE-c015": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "alarm",
+    "tags": ["steady", "straight-tone", "single-bleat"],
+    "primary_note": "B3",
+    "tones_in_order": ["G#3", "A#3", "B3 (primary)", "C4", "C#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_015_76.12-77.58_conf0.55.mp3",
+    "intensity": 8
+  },
+  "ytb-u2Gnrf3fRmE-c016": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["G#4", "A4", "A#4", "F#5", "G5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_016_78.04-79.02_conf0.65.mp3",
+    "intensity": 1
+  },
+  "ytb-u2Gnrf3fRmE-c017": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "B4", "G4", "F#4", "F4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_017_79.00-81.42_conf0.75.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c018": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["E4", "A4", "A#4", "B4 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_018_82.84-83.82_conf0.15.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c019": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "narrow-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_019_86.68-87.66_conf0.11.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c020": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["A#4", "C5 (primary)", "B2", "C#3", "F2"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_020_91.00-91.98_conf0.45.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c021": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E4", "E5", "F5", "D#5", "G4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_021_98.68-100.14_conf0.56.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c022": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["E4", "E5", "F5", "F#4", "G4 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_022_102.52-103.50_conf0.13.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c023": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "D4", "D#6", "F#5", "G#2"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_023_104.92-106.38_conf0.32.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c024": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["F3", "D5", "F#3", "F#4 (primary)", "D#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_024_108.76-109.74_conf0.14.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c025": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "A5", "G#5", "G5", "B3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_025_111.16-112.14_conf0.83.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c026": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G3",
+    "tones_in_order": ["G4", "G3 (primary)", "C4", "F4", "F#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_026_115.00-115.98_conf0.17.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c027": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "D4", "B4", "A#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_027_136.12-137.10_conf0.14.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c028": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G4 (primary)", "C6"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_028_141.40-142.38_conf0.12.mp3",
+    "intensity": 1
+  },
+  "ytb-u2Gnrf3fRmE-c029": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["C5", "C#4", "C#5", "D5", "D4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_029_142.36-146.22_conf0.58.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c030": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["A#4", "B4", "C5", "C#5", "D5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_030_149.08-151.50_conf0.83.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c031": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["A3", "B3", "C4", "C#4", "D4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_031_153.40-154.38_conf0.23.mp3",
+    "intensity": 4
+  },
+  "ytb-u2Gnrf3fRmE-c032": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_032_157.72-158.70_conf0.12.mp3",
+    "intensity": 1
+  },
+  "ytb-u2Gnrf3fRmE-c033": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "B3",
+    "tones_in_order": ["A#3", "B3 (primary)", "F#5", "F5", "G3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_033_180.76-181.74_conf0.13.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c034": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["E4", "G3", "C#5 (primary)", "D#4", "C4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_034_182.68-184.14_conf0.36.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c035": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["F4", "D#6", "C#6", "C5", "C#5 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_035_184.12-186.06_conf0.28.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c036": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["D#4", "E4", "F#5", "G#3", "A3"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_036_186.52-187.98_conf0.58.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c037": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C#5", "C#4", "D4", "C5 (primary)", "A#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_037_187.96-190.86_conf0.58.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c038": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["B4 (primary)", "A#4", "F#4", "A4", "C5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_038_213.88-214.86_conf0.17.mp3",
+    "intensity": 2
+  },
+  "ytb-u2Gnrf3fRmE-c039": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "alarm",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["C#4", "D4", "E4", "F4", "F#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_039_221.08-222.54_conf0.50.mp3",
+    "intensity": 7
+  },
+  "ytb-u2Gnrf3fRmE-c040": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F3",
+    "tones_in_order": ["G#3", "G3", "G2", "F3 (primary)", "D4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_040_234.52-235.98_conf0.12.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c041": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["D6", "C#6", "C6", "C5", "D#4"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_041_239.32-240.78_conf0.21.mp3",
+    "intensity": 3
+  },
+  "ytb-u2Gnrf3fRmE-c042": {
+    "descriptor": "long double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_042_250.36-252.30_conf0.57.mp3",
+    "intensity": 5
+  },
+  "ytb-u2Gnrf3fRmE-c043": {
+    "descriptor": "long multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#5"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_043_258.52-260.46_conf0.30.mp3",
+    "intensity": 5
+  },
+  "ytb-u2Gnrf3fRmE-c044": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C#3",
+    "tones_in_order": ["D#3", "D4", "D3", "C#3 (primary)"],
+    "source_file": "output/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]/Goats Screaming Like Humans, Try Not to Laugh 🐐 😲 😀 😂 🤣 February 2021 Compilation [u2Gnrf3fRmE]_clip_044_263.32-264.30_conf0.67.mp3",
+    "intensity": 3
+  },
+  "ytb-A_DaizJnnJQ-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["C5", "C#6", "A2", "D6", "C#5"],
+    "source_file": "Originals/Let It Goat - Disney Frozen (Edition) [A_DaizJnnJQ].mp3",
+    "intensity": 6
+  },
+  "ytb-vWudCZ_EZEk-c001": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": "G#3",
+    "tones_in_order": ["G#3 (primary)"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_001_0.28-1.26_conf0.21.mp3",
+    "intensity": 2
+  },
+  "ytb-vWudCZ_EZEk-c002": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["E3", "G#4", "C#4", "G#3", "G#5 (primary)"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_002_1.72-3.18_conf0.15.mp3",
+    "intensity": 2
+  },
+  "ytb-vWudCZ_EZEk-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#4",
+    "tones_in_order": ["C5", "C#5", "D#5", "E5", "A#2"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_003_9.40-10.86_conf0.24.mp3",
+    "intensity": 5
+  },
+  "ytb-vWudCZ_EZEk-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["G#4", "G#5", "G#3", "B4", "E3"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds [vWudCZ_EZEk].mp3",
+    "intensity": 6
+  },
+  "ytb-vWudCZ_EZEk-c005": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["F4", "E4 (primary)"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_005_16.12-17.10_conf0.17.mp3",
+    "intensity": 5
+  },
+  "ytb-vWudCZ_EZEk-c006": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F4 (primary)", "F#4", "G4", "F#5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_006_19.00-19.98_conf0.13.mp3",
+    "intensity": 6
+  },
+  "ytb-vWudCZ_EZEk-c007": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["G#5", "D4 (primary)", "C6", "B3", "A#5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_007_20.44-21.42_conf0.10.mp3",
+    "intensity": 3
+  },
+  "ytb-vWudCZ_EZEk-c008": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["A#3 (primary)", "A4", "D#3", "E3", "F#5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_008_24.76-25.74_conf0.46.mp3",
+    "intensity": 2
+  },
+  "ytb-vWudCZ_EZEk-c009": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["G#4", "G#5", "G#3", "B4", "E3"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds [vWudCZ_EZEk].mp3",
+    "intensity": 6
+  },
+  "ytb-vWudCZ_EZEk-c010": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["G#4", "G#5", "G#3", "B4", "E3"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds [vWudCZ_EZEk].mp3",
+    "intensity": 6
+  },
+  "ytb-vWudCZ_EZEk-c011": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["F#5", "G5", "G#5 (primary)", "G#4", "C#4"],
+    "source_file": "output/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]/Ranking The Funniest Goat Sounds [vWudCZ_EZEk]_clip_011_34.36-35.34_conf0.29.mp3",
+    "intensity": 3
+  },
+  "ytb-TkQ0naWYe-E-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A3",
+    "tones_in_order": ["F3", "F#3", "G3", "G#3", "A3 (primary)"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E].mp3",
+    "intensity": 5
+  },
+  "ytb-TkQ0naWYe-E-c002": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "G#3",
+    "tones_in_order": ["G#3 (primary)", "G#4", "G#2", "D#4", "D#5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]_clip_002_5.56-7.50_conf0.34.mp3",
+    "intensity": 4
+  },
+  "ytb-TkQ0naWYe-E-c003": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["C5", "C#5 (primary)", "F#5", "C#6", "G#5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]_clip_003_11.80-13.26_conf0.24.mp3",
+    "intensity": 2
+  },
+  "ytb-TkQ0naWYe-E-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["D5", "D4", "C#5", "D#6", "G5"],
+    "source_file": "output/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]_clip_004_13.72-16.62_conf0.50.mp3",
+    "intensity": 2
+  },
+  "ytb-TkQ0naWYe-E-c005": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F5",
+    "tones_in_order": ["F#5", "G5", "G#5", "G#4", "A#3"],
+    "source_file": "output/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E]_clip_005_17.56-19.02_conf0.47.mp3",
+    "intensity": 2
+  },
+  "ytb-TkQ0naWYe-E-c006": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A3",
+    "tones_in_order": ["F3", "F#3", "G3", "G#3", "A3 (primary)"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E].mp3",
+    "intensity": 5
+  },
+  "ytb-TkQ0naWYe-E-c007": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A3",
+    "tones_in_order": ["F3", "F#3", "G3", "G#3", "A3 (primary)"],
+    "source_file": "Originals/Ranking The Funniest Goat Sounds Part 3 [TkQ0naWYe-E].mp3",
+    "intensity": 5
+  },
+  "ytb-NaIrB-6XxNI-c001": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F4 (primary)", "G#4", "F3", "E4"],
+    "source_file": "Originals/Screaming Goat 2 [NaIrB-6XxNI].mp3",
+    "intensity": 2
+  },
+  "ytb-NaIrB-6XxNI-c002": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F4 (primary)", "G#4", "F3", "E4"],
+    "source_file": "Originals/Screaming Goat 2 [NaIrB-6XxNI].mp3",
+    "intensity": 2
+  },
+  "ytb-xtmuMLk3aKc-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["B3", "A3", "G#4", "G#3", "G#5"],
+    "source_file": "Originals/Screaming goat [xtmuMLk3aKc].mp3",
+    "intensity": 4
+  },
+  "ytb-r9zh2_QCUMc-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["A#3 (primary)", "B3", "D4", "D#4", "E4"],
+    "source_file": "Originals/Screaming goat leads to police response [r9zh2_QCUMc].mp3",
+    "intensity": 5
+  },
+  "ytb-ujt0cs52bTQ-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F4 (primary)", "F3", "A#2", "F5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_001_0.28-3.18_conf0.66.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["D3", "C#3", "D5", "C#5", "D#5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_002_7.48-9.90_conf0.71.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c003": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["F5", "E4 (primary)", "F4", "D#4", "A#3"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_003_11.32-12.30_conf0.12.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c004": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["G5", "G4", "F#4 (primary)", "F#3"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_004_13.24-14.22_conf0.15.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c005": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F#5", "F5", "F4 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_005_18.04-19.02_conf0.71.mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c006": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F4", "F#4", "F#5 (primary)", "F5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_006_19.48-20.94_conf0.81.mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c007": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "E5", "F5", "G5", "C5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_007_21.40-23.34_conf0.63.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c008": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_008_23.32-24.30_conf0.40.mp3",
+    "intensity": 2
+  },
+  "ytb-ujt0cs52bTQ-c009": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "D#4", "A#4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_009_24.28-26.70_conf0.77.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c010": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["A4 (primary)", "A#4", "F5", "B4", "D5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_010_27.64-28.62_conf0.78.mp3",
+    "intensity": 1
+  },
+  "ytb-ujt0cs52bTQ-c011": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "B4", "G4", "F#4", "F4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_011_29.08-31.50_conf0.82.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c012": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["C5", "B4 (primary)", "B5", "A#4", "A4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_012_32.92-34.38_conf0.78.mp3",
+    "intensity": 2
+  },
+  "ytb-ujt0cs52bTQ-c013": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "narrow-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["C5", "C#5 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_013_38.68-40.14_conf0.42.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c014": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C#5", "C5 (primary)", "C4", "B3", "A#5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_014_40.12-41.10_conf0.49.mp3",
+    "intensity": 2
+  },
+  "ytb-ujt0cs52bTQ-c015": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["G#4", "D#6 (primary)", "A#5", "A5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_015_43.96-45.90_conf0.88.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c016": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_016_47.80-49.26_conf0.89.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c017": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat"],
+    "primary_note": "A5",
+    "tones_in_order": ["A5 (primary)", "G#5", "D#6"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_017_52.60-54.54_conf0.77.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c018": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F4 (primary)", "F#4", "F3", "A#2", "F5"],
+    "source_file": "Originals/Screaming Goats Compilation [ujt0cs52bTQ].mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c019": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["A#5", "D3", "A4 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_019_57.40-59.82_conf0.57.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c020": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["A5", "F#4 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_020_60.76-61.74_conf0.28.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c021": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["F4", "E4", "G5", "A5", "F#4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_021_61.72-63.18_conf0.26.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c022": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F4 (primary)", "F#4", "F3", "A#2", "F5"],
+    "source_file": "Originals/Screaming Goats Compilation [ujt0cs52bTQ].mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c023": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["A#4 (primary)", "B4", "C5", "C#5", "D5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_023_65.08-70.86_conf0.80.mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c024": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F4 (primary)", "F#4", "F3", "A#2", "F5"],
+    "source_file": "Originals/Screaming Goats Compilation [ujt0cs52bTQ].mp3",
+    "intensity": 6
+  },
+  "ytb-ujt0cs52bTQ-c025": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5", "G#5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_025_76.12-77.58_conf0.74.mp3",
+    "intensity": 5
+  },
+  "ytb-ujt0cs52bTQ-c026": {
+    "descriptor": "long sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)", "B5", "A5", "G#5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_026_79.48-81.42_conf0.45.mp3",
+    "intensity": 5
+  },
+  "ytb-ujt0cs52bTQ-c027": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F5",
+    "tones_in_order": ["A3", "A#3", "B3", "C4", "D#4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_027_85.24-86.70_conf0.34.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c028": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C4",
+    "tones_in_order": ["C4 (primary)", "A3", "F5", "F#5", "G5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_028_91.00-92.46_conf0.22.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c029": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G3",
+    "tones_in_order": ["A5", "E3", "G#5", "F#3", "G3 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_029_97.72-101.10_conf0.57.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c030": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["D6", "C#6", "F3", "F4 (primary)", "F#4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_030_101.08-103.02_conf0.55.mp3",
+    "intensity": 5
+  },
+  "ytb-ujt0cs52bTQ-c031": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["E4", "E5", "F5", "D#5", "F#4 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_031_105.88-106.86_conf0.16.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c032": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C4",
+    "tones_in_order": ["C4 (primary)", "B3", "F5", "B4", "C5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_032_108.28-109.74_conf0.54.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c033": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G4 (primary)", "F#4", "A#3", "A3"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_033_110.68-111.66_conf0.17.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c034": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["A#3", "B3", "C4", "F5", "F#4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_034_111.64-112.62_conf0.12.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c035": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F4 (primary)", "E4", "D#4", "D4", "D5"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_035_112.60-113.58_conf0.19.mp3",
+    "intensity": 3
+  },
+  "ytb-ujt0cs52bTQ-c036": {
+    "descriptor": "medium-length double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "narrow-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["E4 (primary)", "F4"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_036_116.92-117.90_conf0.79.mp3",
+    "intensity": 4
+  },
+  "ytb-ujt0cs52bTQ-c037": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C#3",
+    "tones_in_order": ["D#3", "E3", "D4", "D3", "C#3 (primary)"],
+    "source_file": "output/Screaming Goats Compilation [ujt0cs52bTQ]/Screaming Goats Compilation [ujt0cs52bTQ]_clip_037_121.24-123.18_conf0.38.mp3",
+    "intensity": 3
+  },
+  "ytb-kh6c0SOfkH4-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "B4", "G#4", "G#5", "D6"],
+    "source_file": "Originals/Taylor Swift - I knew you were trouble Ft. Screaming goat [kh6c0SOfkH4].mp3",
+    "intensity": 8
+  },
+  "ytb-kh6c0SOfkH4-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "B4", "G#4", "G#5", "D6"],
+    "source_file": "Originals/Taylor Swift - I knew you were trouble Ft. Screaming goat [kh6c0SOfkH4].mp3",
+    "intensity": 8
+  },
+  "ytb-kh6c0SOfkH4-c003": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "B4", "G#4", "G#5", "D6"],
+    "source_file": "Originals/Taylor Swift - I knew you were trouble Ft. Screaming goat [kh6c0SOfkH4].mp3",
+    "intensity": 8
+  },
+  "ytb--aLYvZ5sX28-c001": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C5", "B4", "A#4", "G#4"],
+    "source_file": "Originals/Taylor Swift - Trouble (Goat Remix) [-aLYvZ5sX28].mp3",
+    "intensity": 7
+  },
+  "ytb--aLYvZ5sX28-c002": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C5", "B4", "A#4", "G#4"],
+    "source_file": "Originals/Taylor Swift - Trouble (Goat Remix) [-aLYvZ5sX28].mp3",
+    "intensity": 7
+  },
+  "ytb--aLYvZ5sX28-c003": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "D#6",
+    "tones_in_order": ["B5", "C6", "D#6 (primary)"],
+    "source_file": "output/Taylor Swift - Trouble (Goat Remix) [-aLYvZ5sX28]/Taylor Swift - Trouble (Goat Remix) [-aLYvZ5sX28]_clip_003_19.00-20.46_conf0.34.mp3",
+    "intensity": 7
+  },
+  "ytb--aLYvZ5sX28-c004": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D#6 (primary)", "C5", "B4", "A#4", "G#4"],
+    "source_file": "Originals/Taylor Swift - Trouble (Goat Remix) [-aLYvZ5sX28].mp3",
+    "intensity": 7
+  },
+  "ytb-JYEaAehLoQs-c001": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["D5", "C#5 (primary)", "D4", "C5", "D#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_001_4.60-5.58_conf0.32.mp3",
+    "intensity": 2
+  },
+  "ytb-JYEaAehLoQs-c002": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "C#4",
+    "tones_in_order": ["F#5", "B3", "C4", "C#4 (primary)", "D4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_002_24.76-25.74_conf0.65.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c003": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["F#2", "D#5 (primary)", "G#2", "D5", "G#3"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_003_27.64-28.62_conf0.11.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c004": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_004_30.04-31.02_conf0.15.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c005": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A2",
+    "tones_in_order": ["D4", "A2 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_005_73.72-78.54_conf0.32.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c006": {
+    "descriptor": "long sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_006_79.00-83.34_conf0.34.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c007": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_007_86.68-87.66_conf0.67.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c008": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G4 (primary)", "G5", "G#4", "G#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_008_115.00-116.46_conf0.60.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c009": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_009_117.40-118.38_conf0.36.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c010": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["F#5", "D#6 (primary)", "G#5", "G5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_010_120.76-122.22_conf0.64.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c011": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#6",
+    "tones_in_order": ["F#4", "C#6 (primary)", "C6", "B5", "D#6"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_011_122.68-124.62_conf0.64.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c012": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_012_125.56-126.54_conf0.51.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c013": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat"],
+    "primary_note": "C5",
+    "tones_in_order": ["D5", "C#5", "C5 (primary)", "A#4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_013_136.60-137.58_conf0.61.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c014": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "G4", "F#4", "F4", "E4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_014_138.52-139.98_conf0.47.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c015": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["A5", "A#5", "D#6 (primary)", "E5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_015_147.64-148.62_conf0.24.mp3",
+    "intensity": 2
+  },
+  "ytb-JYEaAehLoQs-c016": {
+    "descriptor": "medium-length sustained falling wavy scream",
+    "vibe": "complaint / lament",
+    "tags": ["falling", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F2",
+    "tones_in_order": ["D#6", "F2 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_016_149.56-150.54_conf0.10.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c017": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G#4", "G4 (primary)", "A5", "F#4", "F4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_017_162.52-164.46_conf0.61.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c018": {
+    "descriptor": "long double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "narrow-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["A4 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_018_164.92-166.86_conf0.41.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c019": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["A4", "A3", "F#4 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_019_167.80-168.78_conf0.39.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c020": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A#3",
+    "tones_in_order": ["G4", "F#4", "F4", "B2", "A#2"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_020_181.24-182.22_conf0.17.mp3",
+    "intensity": 2
+  },
+  "ytb-JYEaAehLoQs-c021": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A5",
+    "tones_in_order": ["A5 (primary)", "A4", "A#4", "G#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_021_188.44-189.90_conf0.45.mp3",
+    "intensity": 6
+  },
+  "ytb-JYEaAehLoQs-c022": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F2", "D4", "A2", "F#5 (primary)", "A4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_022_193.72-198.06_conf0.40.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c023": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "D#3",
+    "tones_in_order": ["D#3 (primary)", "E3", "B3", "C5", "F3"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_023_243.64-244.62_conf0.14.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c024": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D5", "C#5", "D4", "D6", "E5"],
+    "source_file": "Originals/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs].mp3",
+    "intensity": 8
+  },
+  "ytb-JYEaAehLoQs-c025": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["A#4 (primary)", "B4", "C5", "C#5", "D5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_025_247.48-250.86_conf0.74.mp3",
+    "intensity": 6
+  },
+  "ytb-JYEaAehLoQs-c026": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["A4", "A#4 (primary)", "B4", "C4", "C5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_026_250.84-253.26_conf0.74.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c027": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["D4", "A2", "F#5 (primary)", "A4", "A5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_027_257.08-261.42_conf0.33.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c028": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A2",
+    "tones_in_order": ["G#5", "E2", "E3", "D#6", "A2 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_028_261.88-265.26_conf0.31.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c029": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A3",
+    "tones_in_order": ["G#5", "A3 (primary)", "A2"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_029_265.24-269.10_conf0.36.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c030": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "G4", "F#4", "F4", "E4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_030_272.92-274.38_conf0.69.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c031": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat"],
+    "primary_note": "C#5",
+    "tones_in_order": ["B4", "C5", "C#5 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_031_282.04-283.02_conf0.41.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c032": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D5", "C#5", "D4", "D6", "E5"],
+    "source_file": "Originals/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs].mp3",
+    "intensity": 8
+  },
+  "ytb-JYEaAehLoQs-c033": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["G#5 (primary)", "G5", "G#4", "A5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_033_315.16-316.14_conf0.26.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c034": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "B2",
+    "tones_in_order": ["B2 (primary)", "D#6", "C#3", "C5", "F2"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_034_319.00-319.98_conf0.15.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c035": {
+    "descriptor": "long sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": "A2",
+    "tones_in_order": ["A2 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_035_354.04-355.98_conf0.30.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c036": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["F#4 (primary)", "F4", "E4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_036_359.80-361.74_conf0.72.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c037": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F#4",
+    "tones_in_order": ["F#4 (primary)", "F4", "F5", "F#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_037_362.20-363.18_conf0.24.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c038": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G4", "G#4 (primary)", "F#4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_038_367.00-367.98_conf0.11.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c039": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat", "wide-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G#4 (primary)", "F5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_039_367.96-368.94_conf0.11.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c040": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "alarm",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#6",
+    "tones_in_order": ["D5", "C#5", "D4", "D6", "E5"],
+    "source_file": "Originals/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs].mp3",
+    "intensity": 8
+  },
+  "ytb-JYEaAehLoQs-c041": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F#5 (primary)", "F5", "F4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_041_371.80-372.78_conf0.47.mp3",
+    "intensity": 6
+  },
+  "ytb-JYEaAehLoQs-c042": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D6",
+    "tones_in_order": ["A5", "A2", "A3", "D6 (primary)", "D5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_042_384.76-385.74_conf0.11.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c043": {
+    "descriptor": "medium-length double-bleat steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "double-bleat"],
+    "primary_note": "A#5",
+    "tones_in_order": ["B5", "A#5 (primary)", "A5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_043_387.64-389.10_conf0.26.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c044": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat"],
+    "primary_note": "B5",
+    "tones_in_order": ["F#5", "G5", "G#5", "A#5", "B5 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_044_390.04-391.02_conf0.50.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c045": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["A#5 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_045_391.00-391.98_conf0.19.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c046": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G3",
+    "tones_in_order": ["E3", "A5", "G#5", "F#3", "G3 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_046_413.08-415.02_conf0.30.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c047": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["D6", "C#6", "F3", "F4 (primary)", "F#4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_047_415.00-417.42_conf0.52.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c048": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["A#3", "G#5", "G4", "C#5", "D5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_048_433.72-436.14_conf0.31.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c049": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["A#5", "E5 (primary)", "F4", "F#4", "D#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_049_436.12-437.10_conf0.44.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c050": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F5", "F#5 (primary)", "A#3", "F#4", "D3"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_050_452.92-453.90_conf0.15.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c051": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#4",
+    "tones_in_order": ["A#4", "B4", "D#5", "D4", "D#4 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_051_453.88-454.86_conf0.28.mp3",
+    "intensity": 3
+  },
+  "ytb-JYEaAehLoQs-c052": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C#4", "D4", "D#4", "E4", "F4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_052_478.84-479.82_conf0.41.mp3",
+    "intensity": 7
+  },
+  "ytb-JYEaAehLoQs-c053": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["D#6", "F4", "E4 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_053_503.80-504.78_conf0.11.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c054": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["C#5", "D5", "A#3", "E5", "D#5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_054_507.16-508.14_conf0.25.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c055": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["G#5", "A5", "G5", "F#5", "B4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_055_553.72-554.70_conf0.15.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c056": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "wide-range"],
+    "primary_note": "C#4",
+    "tones_in_order": ["D4", "C#4 (primary)", "C4", "G#5", "A5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_056_556.12-557.10_conf0.16.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c057": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["F#3", "F3", "G4", "D6", "D#5 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_057_557.08-558.06_conf0.20.mp3",
+    "intensity": 4
+  },
+  "ytb-JYEaAehLoQs-c058": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat"],
+    "primary_note": "G4",
+    "tones_in_order": ["G4 (primary)", "G#4", "F#4"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_058_580.60-581.58_conf0.43.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c059": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C#6",
+    "tones_in_order": ["F#5", "G5", "G#5", "B5", "C6"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_059_604.60-606.54_conf0.65.mp3",
+    "intensity": 5
+  },
+  "ytb-JYEaAehLoQs-c060": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["D4", "F#5 (primary)", "A4", "A5"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_060_615.64-620.46_conf0.33.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c061": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G#5",
+    "tones_in_order": ["G#5 (primary)", "E2", "E3"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_061_620.92-622.86_conf0.35.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c062": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_062_622.84-624.30_conf0.41.mp3",
+    "intensity": 1
+  },
+  "ytb-JYEaAehLoQs-c063": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "C#3",
+    "tones_in_order": ["D#3", "D3", "C#3 (primary)"],
+    "source_file": "output/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]/The Most Hysterical Screaming and Fainting Goats! [JYEaAehLoQs]_clip_063_627.16-628.14_conf0.40.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-a-comically-loud-11": {
+    "descriptor": "long multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["F4", "E4 (primary)", "D#4"],
+    "source_file": "Generated/11labs_A_comically_loud_but-1760611100899.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-a-comically-loud-08": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["A#4 (primary)"],
+    "source_file": "Generated/11labs_A_comically_loud_but_#1-1760611109993.mp3",
+    "intensity": 6
+  },
+  "gen-elevenlabs-a-comically-loud-a6": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["F#4", "F5", "G4", "F4 (primary)"],
+    "source_file": "Generated/11labs_A_comically_loud_but_#2-1760611109994.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-a-comically-loud-e8": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["F#4", "G4", "G#4 (primary)"],
+    "source_file": "Generated/11labs_A_comically_loud_but_#3-1760611109994.mp3",
+    "intensity": 6
+  },
+  "gen-elevenlabs-a-goat-screaming-97": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "narrow-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["D4 (primary)"],
+    "source_file": "Generated/11labs_A_goat_screaming_bec-1760610628507.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-a-goat-screaming-73": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["D4 (primary)", "F5", "D#4"],
+    "source_file": "Generated/11labs_A_goat_screaming_bec_#1-1760610624409.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-a-goat-screaming-bf": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "B5", "C6"],
+    "source_file": "Generated/11labs_A_goat_screaming_bec_#2-1760610620258.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-a-goat-screaming-9b": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "narrow-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["D4 (primary)", "C#4"],
+    "source_file": "Generated/11labs_A_goat_screaming_bec_#3-1760610616560.mp3",
+    "intensity": 4
+  },
+  "gen-elevenlabs-a-goat-stubs-54": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["G5", "G#4", "A#5", "A#4 (primary)", "A4"],
+    "source_file": "Generated/11labs_A_goat_stubs_it's_to_#1-1760610670214.mp3",
+    "intensity": 6
+  },
+  "gen-elevenlabs-a-goat-stubs-83": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["B4 (primary)", "A#4", "A#5", "B5", "G2"],
+    "source_file": "Generated/11labs_A_goat_stubs_it's_to_#2-1760610678448.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-a-goat-stubs-08": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["G4", "G#4", "F#4", "A4", "A#4 (primary)"],
+    "source_file": "Generated/11labs_A_goat_stubs_it's_to_#3-1760610684107.mp3",
+    "intensity": 4
+  },
+  "gen-elevenlabs-a-surprised-baby-37": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "Generated/11labs_A_surprised_baby_goa-1760611163736.mp3",
+    "intensity": 4
+  },
+  "gen-elevenlabs-a-surprised-baby-bd": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "B4",
+    "tones_in_order": ["A#4", "B4 (primary)", "B3"],
+    "source_file": "Generated/11labs_A_surprised_baby_goa_#1-1760611168221.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-a-surprised-baby-13": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "Generated/11labs_A_surprised_baby_goa_#2-1760611168221.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-a-surprised-baby-ac": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G#4 (primary)", "A4", "G4"],
+    "source_file": "Generated/11labs_A_surprised_baby_goa_#3-1760611168221.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-a-surprised-old-90": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["A5", "A3", "A4 (primary)", "C6", "A#4"],
+    "source_file": "Generated/11labs_A_surprised_old_grum-1760611644893.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-a-surprised-old-9e": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["E4 (primary)", "B5", "F4", "A#5", "F#4"],
+    "source_file": "Generated/11labs_A_surprised_old_grum_#1-1760611642781.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-a-surprised-old-6e": {
+    "descriptor": "long sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "Generated/11labs_A_surprised_old_grum_#2-1760611640162.mp3",
+    "intensity": 6
+  },
+  "gen-elevenlabs-goat-screaming-in-29": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A4",
+    "tones_in_order": ["G#5", "A5", "A#5", "A4 (primary)", "A3"],
+    "source_file": "Generated/11labs_Goat_screaming_in_a__#2-1760610723650.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-goat-yells-in-a6": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["D#5 (primary)", "D5", "C#5", "C5", "B4"],
+    "source_file": "Generated/11labs_Goat_yells_in_horror-1760610783392.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-goat-yells-in-da": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["D#5 (primary)", "D#4", "D5"],
+    "source_file": "Generated/11labs_Goat_yells_in_horror-1760610836847.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-goat-yells-in-a9": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "A#4",
+    "tones_in_order": ["G4", "G#4", "A4", "A#4 (primary)", "B4"],
+    "source_file": "Generated/11labs_Goat_yells_in_horror_#1-1760610788410.mp3",
+    "intensity": 3
+  },
+  "gen-elevenlabs-goat-yells-in-df": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "Generated/11labs_Goat_yells_in_horror_#1-1760610840693.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-goat-yells-in-04": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "narrow-range"],
+    "primary_note": null,
+    "tones_in_order": [],
+    "source_file": "Generated/11labs_Goat_yells_in_horror_#2-1760610843520.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-goat-yells-in-9c": {
+    "descriptor": "medium-length sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat"],
+    "primary_note": "A#4",
+    "tones_in_order": ["G#4", "A4", "A#4 (primary)", "B4"],
+    "source_file": "Generated/11labs_Goat_yells_in_horror_#3-1760610847073.mp3",
+    "intensity": 7
+  },
+  "gen-elevenlabs-loud-goat-scream-a5": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "narrow-range"],
+    "primary_note": "D#4",
+    "tones_in_order": ["D#4 (primary)", "D4"],
+    "source_file": "Generated/11labs_Loud_goat_scream.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-loud-goat-scream-df": {
+    "descriptor": "medium-length double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["G#4 (primary)", "G4", "A4"],
+    "source_file": "Generated/11labs_Loud_goat_scream_#1-1760610582237.mp3",
+    "intensity": 4
+  },
+  "gen-elevenlabs-loud-goat-scream-84": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "C#5",
+    "tones_in_order": ["C#5 (primary)", "D5", "C5"],
+    "source_file": "Generated/11labs_Loud_goat_scream_#2-1760610574390.mp3",
+    "intensity": 6
+  },
+  "gen-elevenlabs-frightened-goat-scre-79": {
+    "descriptor": "long multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat"],
+    "primary_note": "A#4",
+    "tones_in_order": ["A#4 (primary)", "E4", "D#4"],
+    "source_file": "Generated/11labs_frightened_goat_scre_#1-1760610549654.mp3",
+    "intensity": 5
+  },
+  "gen-elevenlabs-frightened-goat-scre-38": {
+    "descriptor": "long double-bleat steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "double-bleat", "wide-range"],
+    "primary_note": "A#5",
+    "tones_in_order": ["G#4", "B5", "A#5 (primary)", "B2"],
+    "source_file": "Generated/11labs_frightened_goat_scre_#2-1760610555995.mp3",
+    "intensity": 4
+  },
+  "gen-elevenlabs-frightened-goat-scre-89": {
+    "descriptor": "long multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D#4",
+    "tones_in_order": ["A#5", "D#4 (primary)", "C#4"],
+    "source_file": "Generated/11labs_frightened_goat_scre_#3-1760610561436.mp3",
+    "intensity": 4
+  },
+  "gen-unknown-general-mrwewsr4eg-goat-51": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat"],
+    "primary_note": "A4",
+    "tones_in_order": ["G4", "G#4", "A4 (primary)"],
+    "source_file": "Generated/general_mrwewsr4eg-goat-sfx-5.mp3",
+    "intensity": 2
+  },
+  "gen-unknown-general-z85shyw4eg-goat-59": {
+    "descriptor": "long sustained steady wavy scream",
+    "vibe": "dramatic / theatrical",
+    "tags": ["steady", "vibrato", "single-bleat", "wide-range"],
+    "primary_note": "G4",
+    "tones_in_order": ["D#4", "E5", "F#4", "G4 (primary)", "G#4"],
+    "source_file": "Generated/general_z85shyw4eg-goat-0.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-3c": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "G5",
+    "tones_in_order": ["G5 (primary)", "F5"],
+    "source_file": "Generated/sora2_goat_scream_mantage-01.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-69": {
+    "descriptor": "medium-length sustained steady scream",
+    "vibe": "neutral/alert",
+    "tags": ["steady", "straight-tone", "single-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["E4 (primary)", "G5", "E5"],
+    "source_file": "Generated/sora2_goat_scream_mantage-02.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-f9": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["D#4", "E4 (primary)"],
+    "source_file": "Generated/sora2_goat_scream_mantage-03.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-f2": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "D#5",
+    "tones_in_order": ["D#5 (primary)", "E5"],
+    "source_file": "Generated/sora2_goat_scream_mantage-04.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-50": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["D4 (primary)"],
+    "source_file": "Generated/sora2_goat_scream_mantage-05.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-b9": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["E4 (primary)", "D#4"],
+    "source_file": "Generated/sora2_goat_scream_mantage-06.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-bd": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "narrow-range"],
+    "primary_note": "G#4",
+    "tones_in_order": ["A4", "G#4 (primary)", "G4"],
+    "source_file": "Generated/sora2_goat_scream_mantage-07.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-05": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F5", "F#5 (primary)"],
+    "source_file": "Generated/sora2_goat_scream_mantage-08.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-9e": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E5",
+    "tones_in_order": ["E5 (primary)", "E3"],
+    "source_file": "Generated/sora2_goat_scream_mantage-09.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-ff": {
+    "descriptor": "medium-length multi-bleat steady scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "straight-tone", "multi-bleat", "narrow-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["C5 (primary)", "C#5"],
+    "source_file": "Generated/sora2_goat_scream_mantage-10.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-2e": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "C5",
+    "tones_in_order": ["E5", "F5", "F#4", "C5 (primary)", "B4"],
+    "source_file": "Generated/sora2_goat_scream_mantage-11.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-5d": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "E4",
+    "tones_in_order": ["E4 (primary)", "D#4", "F#4", "F4", "D#6"],
+    "source_file": "Generated/sora2_goat_scream_mantage-12.mp3",
+    "intensity": 2
+  },
+  "gen-sora2-goat-scream-mantage-59": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F4",
+    "tones_in_order": ["E4", "F4 (primary)", "F#5", "G4", "F#4"],
+    "source_file": "Generated/sora2_goat_scream_mantage-13.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-ad": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "F#5",
+    "tones_in_order": ["F#4", "G#4", "F5", "E4", "F#5 (primary)"],
+    "source_file": "Generated/sora2_goat_scream_mantage-14.mp3",
+    "intensity": 3
+  },
+  "gen-sora2-goat-scream-mantage-fd": {
+    "descriptor": "medium-length multi-bleat steady wavy scream",
+    "vibe": "frantic / chattery",
+    "tags": ["steady", "vibrato", "multi-bleat", "wide-range"],
+    "primary_note": "D4",
+    "tones_in_order": ["G3", "C#5", "C5", "C4", "D4 (primary)"],
+    "source_file": "Generated/sora2_goat_scream_mantage-15.mp3",
+    "intensity": 2
+  }
+}

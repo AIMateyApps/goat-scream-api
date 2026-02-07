@@ -1,0 +1,60 @@
+# Dependencies
+node_modules/
+.pnpm-store/
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# Git
+.git/
+.gitignore
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Test & Coverage
+coverage/
+.nyc_output/
+*.spec.js
+
+# Development files
+.editorconfig
+.nvmrc
+.prettierrc*
+eslint.config.js
+jest.config.js
+nodemon.json
+
+# Documentation (keep docs/ for OpenAPI/Swagger)
+*.md
+!README.md
+
+# Local data
+tmp/
+logs/
+audit/
+stats/
+screams/
+
+# Python (if any)
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Misc
+*.log
+*.bak
+*.backup
+*~

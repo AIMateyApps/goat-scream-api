@@ -1,0 +1,1276 @@
+openapi: 3.1.0
+info:
+  title: Goat Screams API
+  version: 1.0.0
+  description: |
+    Public REST API for browsing curated goat screams, powered by MongoDB and Cloudinary.
+    All endpoints are rate-limited. Moderation routes require the `x-admin-token` header.
+
+    ## API Versioning
+    All API endpoints are versioned under `/api/v1/`. Legacy `/api/*` requests are redirected
+    to the corresponding `/api/v1/*` endpoint with a 308 Permanent Redirect.
+
+    ## Filter Composition Rules
+
+    Filters can be combined to narrow down results. All filters use **AND** logic — each
+    additional filter further restricts the result set.
+
+    ### List Endpoints (`/api/v1/screams`, `/api/v1/screams/random`)
+
+    | Filter | Type | Description | Example |
+    |--------|------|-------------|---------|
+    | `intensity_min` | integer | Minimum intensity (1-10) | `?intensity_min=7` |
+    | `intensity_max` | integer | Maximum intensity (1-10) | `?intensity_max=9` |
+    | `year` | integer | Exact year match | `?year=2020` |
+    | `source_type` | string | Source category | `?source_type=viral_video` |
+    | `meme_status` | string | Meme lifecycle status | `?meme_status=classic` |
+    | `breed` | string | Goat breed (case-insensitive) | `?breed=Alpine` |
+    | `category` | string | Audio category | `?category=short_burst` |
+
+    **Combining filters:**
+    ```
+    GET /api/v1/screams?intensity_min=7&intensity_max=10&year=2020
+    ```
+    Returns screams with intensity 7-10 **AND** from year 2020.
+
+    ### Search Endpoint (`/api/v1/search`)
+
+    | Filter | Type | Description | Example |
+    |--------|------|-------------|---------|
+    | `q` | string | Text search (title, context, source, tags) | `?q=funny%20scream` |
+    | `intensity_range` | string | Range format `min-max` | `?intensity_range=5-10` |
+    | `duration_range` | string | Duration in seconds `min-max` | `?duration_range=1-3` |
+    | `years` | string | Year range `min-max` | `?years=2018-2023` |
+    | `tags` | string | Comma-separated tags (OR within, AND with others) | `?tags=funny,loud` |
+    | `exclude_tags` | string | Tags to exclude | `?exclude_tags=nsfw,duplicate` |
+    | `has_video` | boolean | Filter by video availability | `?has_video=true` |
+    | `note` | string | Filter by primary musical note | `?note=G%235` |
+    | `sort_by` | string | Sort order: `relevance`, `intensity`, `year`, `duration` | `?sort_by=intensity` |
+
+    **Range format:** Use `min-max` syntax (e.g., `5-10`) or a single number for exact match.
+
+    **Tag matching:**
+    - `tags=funny,loud` matches screams with **either** "funny" OR "loud" (inclusive)
+    - `exclude_tags=nsfw` excludes screams with "nsfw" tag
+    - Tags are case-insensitive
+
+    **Musical note filtering:**
+    - Each scream includes audio analysis with `primary_note` (dominant pitch) and `tones_in_order` (sequence of detected notes)
+    - Filter by primary note using standard notation: `?note=G#5` or `?note=C4`
+    - Notes are case-insensitive
+
+    **Combined example:**
+    ```
+    GET /api/v1/search?q=goat&intensity_range=7-10&tags=funny&years=2020-2024&sort_by=intensity
+    ```
+    Returns screams matching "goat" **AND** intensity 7-10 **AND** tagged "funny" **AND** from 2020-2024, sorted by intensity.
+servers:
+  - url: https://api.bleatbox.dev
+    description: Production server
+components:
+  securitySchemes:
+    AdminToken:
+      type: apiKey
+      in: header
+      name: x-admin-token
+  responses:
+    ValidationError:
+      description: Request failed validation
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiError'
+    Unauthorized:
+      description: Authentication or authorization failed
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiError'
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiError'
+    RateLimited:
+      description: Too many requests; retry after the window resets
+      headers:
+        Retry-After:
+          description: Seconds until a new request is allowed
+          schema:
+            type: integer
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiError'
+    ServerError:
+      description: Unexpected server error
+      content:
+        application/json:
+          schema:
+            $ref: '#/components/schemas/ApiError'
+  parameters:
+    Page:
+      in: query
+      name: page
+      description: Page number
+      schema:
+        type: integer
+        default: 1
+        minimum: 1
+    Limit:
+      in: query
+      name: limit
+      description: Page size
+      schema:
+        type: integer
+        default: 20
+        minimum: 1
+        maximum: 100
+    Status:
+      in: query
+      name: status
+      description: Filter by moderation status
+      schema:
+        type: string
+        enum:
+          - pending_review
+          - approved
+          - rejected
+          - all
+    Sort:
+      in: query
+      name: sort
+      description: Sort results when more than one record is returned
+      schema:
+        type: string
+        enum:
+          - intensity
+          - year
+    Direction:
+      in: query
+      name: direction
+      description: Sort direction
+      schema:
+        type: string
+        enum:
+          - asc
+          - desc
+    HasVideo:
+      in: query
+      name: has_video
+      description: Require video assets to be present (true/false)
+      schema:
+        type: boolean
+    Tags:
+      in: query
+      name: tags
+      description: Comma-separated tags to include
+      schema:
+        type: string
+        maxLength: 500
+    ExcludeTags:
+      in: query
+      name: exclude_tags
+      description: Comma-separated tags to exclude
+      schema:
+        type: string
+        maxLength: 500
+    IntensityRange:
+      in: query
+      name: intensity_range
+      description: Intensity range `min-max` (1-10)
+      schema:
+        type: string
+        example: 5-9
+        pattern: '^\\d+(?:-\\d+)?$'
+    DurationRange:
+      in: query
+      name: duration_range
+      description: Duration range `min-max` in seconds
+      schema:
+        type: string
+        example: 1-3
+        pattern: '^\\d+(?:-\\d+)?$'
+    YearsRange:
+      in: query
+      name: years
+      description: Year range `min-max`
+      schema:
+        type: string
+        example: 2010-2024
+        pattern: '^\\d{4}(?:-\\d{4})?$'
+    HasVideoSort:
+      in: query
+      name: sort_by
+      description: Sort order for results
+      schema:
+        type: string
+        enum:
+          - relevance
+          - intensity
+          - year
+          - duration
+        default: relevance
+    Note:
+      in: query
+      name: note
+      description: |
+        Filter by primary musical note (e.g., G#5, C4, A3). Each scream has been analyzed
+        for its dominant pitch using audio analysis. Case-insensitive.
+      schema:
+        type: string
+        example: G#5
+        pattern: '^[A-Ga-g]#?\d$'
+  schemas:
+    ApiError:
+      type: object
+      description: Standard error envelope returned by the API
+      properties:
+        error:
+          type: object
+          required:
+            - code
+            - message
+          properties:
+            code:
+              type: string
+              description: Stable error code (e.g., VALIDATION_ERROR)
+            message:
+              type: string
+              description: Human-readable message for the error
+            request_id:
+              type: string
+              description: Request correlation identifier
+            details:
+              description: Additional context, often validation failures
+              oneOf:
+                - type: object
+                  items:
+                    type: object
+      required:
+        - error
+    License:
+      type: object
+      description: Licensing information associated with a scream asset
+      properties:
+        type:
+          type: string
+          description: License short name or category
+          example: fair_use
+        url:
+          type: string
+          format: uri
+          description: Link to the license terms
+        attribution_required:
+          type: boolean
+          description: Whether attribution is required to use this asset
+        attribution_text:
+          type: string
+          description: Preferred attribution text
+        notes:
+          type: string
+          description: Additional license context
+    GoatAudioVariants:
+      type: object
+      description: URLs for a single audio encoding at multiple quality levels
+      properties:
+        high:
+          type: string
+          format: uri
+          description: High-quality audio URL
+        medium:
+          type: string
+          format: uri
+          description: Medium-quality audio URL
+        low:
+          type: string
+          format: uri
+          description: Low-quality audio URL
+    GoatScream:
+      type: object
+      description: A curated goat scream entry with audio, metadata, and licensing
+      properties:
+        id:
+          type: string
+          description: Unique scream identifier
+          example: ytb-uwnBN9hoDE0-c004
+          pattern: '^[A-Za-z0-9._-]+'
+        title:
+          type: string
+          description: Human-friendly scream title
+        source_type:
+          type: string
+          description: Origin of the scream clip
+          enum:
+            - movie
+            - viral_video
+            - tv_show
+            - farm_recording
+            - meme
+            - ai_generated
+            - user_submission
+            - movie
+            - viral_video
+            - tv_show
+            - farm_recording
+            - meme
+            - ai_generated
+            - user_submission
+        year:
+          type: integer
+          description: Year the scream was recorded or published
+        context:
+          type: string
+          description: Short blurb describing where the scream came from
+        source:
+          type: object
+          description: Source metadata for the clip
+          properties:
+            title:
+              type: string
+              description: Source title or label
+            platform:
+              type: string
+              description: Platform or origin (e.g., YouTube)
+            url:
+              type: string
+              format: uri
+              description: URL to the source
+            director:
+              type: string
+            creator:
+              type: string
+            farm_location:
+              type: string
+        tags:
+          type: array
+          description: Optional tags for searching and filtering
+          items:
+            type: string
+        meme_status:
+          type: string
+          description: Meme lifecycle status (e.g., legendary, viral)
+        audio:
+          type: object
+          description: Key audio attributes
+          properties:
+            duration:
+              type: number
+              description: Length of the clip in seconds
+              minimum: 0
+            intensity:
+              type: integer
+              description: Relative intensity from 1-10
+              minimum: 1
+              maximum: 10
+            category:
+              type: string
+              description: Audio category label (e.g., short_burst)
+              enum:
+                - short_burst
+                - prolonged
+                - multiple
+                - melodic
+        media:
+          type: object
+          description: Media assets associated with the scream
+          properties:
+            audio:
+              type: object
+              description: Downloadable audio formats with quality variants
+              properties:
+                mp3:
+                  $ref: '#/components/schemas/GoatAudioVariants'
+                wav:
+                  $ref: '#/components/schemas/GoatAudioVariants'
+                ogg:
+                  $ref: '#/components/schemas/GoatAudioVariants'
+            video:
+              type: object
+              description: Optional video renditions
+              properties:
+                "1080p":
+                  type: string
+                  format: uri
+                "720p":
+                  type: string
+                  format: uri
+                "480p":
+                  type: string
+                  format: uri
+                "360p":
+                  type: string
+                  format: uri
+                gif:
+                  type: string
+                  format: uri
+            thumbnail:
+              type: string
+              format: uri
+              description: Thumbnail image URL
+        goat:
+          type: object
+          description: Optional goat metadata
+          properties:
+            breed:
+              type: string
+            age:
+              type: string
+            name:
+              type: string
+            color:
+              type: string
+        analysis:
+          type: object
+          description: |
+            Audio analysis metadata including musical note detection. Each scream is analyzed
+            for its dominant pitch and tone progression, enabling musical filtering and composition.
+          properties:
+            descriptor:
+              type: string
+              description: Human-readable description of the scream style (e.g., "medium-length sustained steady wavy scream")
+            vibe:
+              type: string
+              description: Emotional/theatrical quality (e.g., "dramatic / theatrical", "comedic", "panicked")
+            tags:
+              type: array
+              description: Analysis-derived tags (e.g., "vibrato", "single-bleat", "wide-range")
+              items:
+                type: string
+            primary_note:
+              type: string
+              description: |
+                Dominant musical pitch detected in the scream using standard notation (e.g., "G#5", "C4", "A3").
+                Useful for filtering screams by pitch or building musical compositions.
+              example: G#5
+            tones_in_order:
+              type: array
+              description: Sequence of musical notes detected throughout the scream, in chronological order. Useful for understanding the tonal progression.
+              items:
+                type: string
+              example: ["A3", "B3", "C4", "C#4", "D4"]
+            intensity_override:
+              type: number
+              description: Analysis-derived intensity score that may override the base intensity
+              minimum: 1
+              maximum: 10
+        license:
+          $ref: '#/components/schemas/License'
+        approved:
+          type: boolean
+          description: Whether the scream is approved for public listing
+        date_added:
+          type: string
+          format: date-time
+          description: When the scream was added to the database
+        timestamp:
+          type: string
+          nullable: true
+          description: Original timestamp from the source (if available)
+        remix_count:
+          type: integer
+          description: Number of known remixes of this scream
+          minimum: 0
+        last_curated_at:
+          type: string
+          format: date-time
+          description: Timestamp of last curation activity
+        stats:
+          type: object
+          description: Engagement and access statistics
+          properties:
+            api_calls:
+              type: integer
+            downloads:
+              type: integer
+            favorites:
+              type: integer
+            last_accessed_at:
+              type: string
+              format: date-time
+      required:
+        - id
+        - title
+        - source_type
+        - audio
+    Submission:
+      type: object
+      description: A user-submitted goat scream awaiting moderation
+      properties:
+        id:
+          type: string
+          description: Submission identifier
+          pattern: '^sub_[0-9a-fA-F-]{36}$'
+        title:
+          type: string
+          description: Submitted title
+        status:
+          type: string
+          description: Moderation status
+          enum:
+            - pending_review
+            - approved
+            - rejected
+        source:
+          type: object
+          description: Optional source metadata provided by the submitter
+          properties:
+            title:
+              type: string
+            url:
+              type: string
+              format: uri
+            platform:
+              type: string
+            author:
+              type: string
+        context:
+          type: string
+          description: Additional context about the clip
+        year:
+          type: integer
+          description: Year associated with the clip
+          minimum: 1900
+          maximum: 2100
+        analysis:
+          type: object
+          description: Optional audio analysis metadata
+        audio:
+          type: object
+          description: Audio metadata
+          properties:
+            cloudinary_url:
+              type: string
+              format: uri
+              description: Location of the uploaded audio asset
+            duration:
+              type: number
+              description: Duration in seconds
+              minimum: 0
+            intensity:
+              type: integer
+              description: Relative intensity from 1-10
+              minimum: 1
+              maximum: 10
+            category:
+              type: string
+              description: Audio category label
+        goat_scream_id:
+          type: string
+          description: Linked scream id when promoted
+          pattern: '^[A-Za-z0-9._-]+'
+        review_notes:
+          type: string
+          description: Moderator notes
+        createdAt:
+          type: string
+          format: date-time
+          description: Creation timestamp
+        updatedAt:
+          type: string
+          format: date-time
+          description: Last update timestamp
+    SubmissionPage:
+      type: object
+      description: Paginated submissions
+      properties:
+        page:
+          type: integer
+        limit:
+          type: integer
+        total:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/Submission'
+      required:
+        - page
+        - limit
+        - total
+        - items
+    SubmissionAccepted:
+      type: object
+      description: Accepted submission payload
+      properties:
+        message:
+          type: string
+        estimatedReview:
+          type: string
+          description: Human-readable review estimate
+        submission:
+          type: object
+          properties:
+            id:
+              type: string
+            status:
+              type: string
+            analysis:
+              type: object
+            audio_url:
+              type: string
+              format: uri
+      required:
+        - message
+        - submission
+    StatsSummary:
+      type: object
+      description: Aggregated scream statistics
+      properties:
+        total_screams:
+          type: integer
+        by_year:
+          type: object
+          additionalProperties:
+            type: integer
+          description: Map of year to count
+        by_source_type:
+          type: object
+          additionalProperties:
+            type: integer
+          description: Map of source type to count
+        intensity_distribution:
+          type: array
+          description: Distribution across intensity buckets (1-10)
+          items:
+            type: integer
+        top_tags:
+          type: array
+          items:
+            type: object
+            properties:
+              tag:
+                type: string
+              count:
+                type: integer
+      required:
+        - total_screams
+        - by_year
+        - by_source_type
+        - intensity_distribution
+        - top_tags
+    SourceAggregation:
+      type: object
+      description: Aggregated source entry
+      properties:
+        _id:
+          type: string
+          description: Source title or identifier
+        type:
+          type: string
+          description: Source type
+        count:
+          type: integer
+          description: Number of screams from this source
+      required:
+        - _id
+        - count
+    SearchResults:
+      type: object
+      description: Paginated search results
+      properties:
+        page:
+          type: integer
+        limit:
+          type: integer
+        total:
+          type: integer
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/GoatScream'
+      required:
+        - page
+        - limit
+        - total
+        - items
+    DownloadResponse:
+      type: object
+      description: Download information for a scream
+      properties:
+        download_url:
+          type: string
+          format: uri
+        format:
+          type: string
+        quality:
+          type: string
+        filename:
+          type: string
+      required:
+        - download_url
+        - format
+        - quality
+        - filename
+    HealthStatus:
+      type: object
+      description: Lightweight health payload used by monitors and the UI
+      properties:
+        status:
+          type: string
+          description: Service status indicator
+          example: screaming
+        db:
+          type: object
+          properties:
+            connected:
+              type: boolean
+              description: Whether the database connection is healthy
+        uptime_seconds:
+          type: number
+          description: Process uptime in seconds
+      required:
+        - status
+        - db
+        - uptime_seconds
+paths:
+  /health:
+    get:
+      operationId: getHealth
+      summary: Service health check
+      description: Returns process uptime and DB connectivity flags.
+      responses:
+        '200':
+          description: Service status
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/HealthStatus'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/screams/random:
+    get:
+      operationId: getRandomScreams
+      summary: Fetch random curated screams
+      description: |
+        Returns one or many random approved screams, with optional filters.
+
+        Each scream includes audio analysis with musical note detection (`primary_note` and `tones_in_order`).
+        Use the `note` parameter to filter by the dominant pitch.
+      parameters:
+        - in: query
+          name: results
+          description: Number of random screams to return
+          schema:
+            type: integer
+            default: 1
+            minimum: 1
+            maximum: 50
+        - in: query
+          name: intensity_min
+          description: Minimum intensity filter (1-10)
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 10
+        - in: query
+          name: intensity_max
+          description: Maximum intensity filter (1-10)
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 10
+        - in: query
+          name: year
+          description: Filter by year
+          schema:
+            type: integer
+        - in: query
+          name: source_type
+          description: Filter by source type
+          schema:
+            type: string
+            enum:
+              - movie
+              - viral_video
+              - tv_show
+              - farm_recording
+              - meme
+              - ai_generated
+              - user_submission
+        - in: query
+          name: breed
+          description: Filter by goat breed
+          schema:
+            type: string
+        - $ref: '#/components/parameters/Note'
+      responses:
+        '200':
+          description: Random goat screams
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/GoatScream'
+                  - type: array
+                    items:
+                      $ref: '#/components/schemas/GoatScream'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/screams/ordered/{index}:
+    get:
+      operationId: getScreamByOrderedIndex
+      summary: Fetch scream by chronological index or range
+      description: Returns a single scream by index or a range using `start-end` syntax.
+      parameters:
+        - in: path
+          name: index
+          required: true
+          description: Zero-based index or inclusive range (e.g., `10` or `5-15`)
+          schema:
+            type: string
+            pattern: '^\\d+(?:-\\d+)?$'
+      responses:
+        '200':
+          description: Ordered scream(s)
+          content:
+            application/json:
+              schema:
+                oneOf:
+                  - $ref: '#/components/schemas/GoatScream'
+                  - type: array
+                    items:
+                      $ref: '#/components/schemas/GoatScream'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/screams/intense:
+    get:
+      operationId: getIntenseScreams
+      summary: Top intense screams
+      description: Returns the most intense approved screams sorted by intensity.
+      parameters:
+        - in: query
+          name: limit
+          description: Maximum number of records to return
+          schema:
+            type: integer
+            default: 10
+            minimum: 1
+            maximum: 100
+      responses:
+        '200':
+          description: Intense screams
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/GoatScream'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/screams/breeds:
+    get:
+      operationId: listBreeds
+      summary: List unique goat breeds
+      description: Returns an array of breed names; no parameters are accepted.
+      responses:
+        '200':
+          description: Breed list
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  type: string
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+  /api/v1/screams/sources:
+    get:
+      operationId: listSources
+      summary: List source aggregation
+      description: Returns aggregated source data with `_id`, `type`, and `count` fields; no parameters are accepted.
+      responses:
+        '200':
+          description: Source counts
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/SourceAggregation'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+  /api/v1/screams/{id}/download:
+    post:
+      operationId: getScreamDownload
+      summary: Register a download and fetch media URL
+      description: Registers a download for `id` and returns `download_url`, `format`, `quality`, and `filename`; accepts optional `format`/`quality` overrides in the request body.
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Scream identifier
+          schema:
+            type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                format:
+                  type: string
+                  description: Requested audio format
+                  enum:
+                    - mp3
+                    - wav
+                    - ogg
+                    - mp3
+                    - wav
+                    - ogg
+                  default: mp3
+                quality:
+                  type: string
+                  description: Requested quality
+                  enum:
+                    - high
+                    - medium
+                    - low
+                    - high
+                    - medium
+                    - low
+                  default: medium
+      responses:
+        '200':
+          description: Download link
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/DownloadResponse'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/search:
+    get:
+      operationId: searchScreams
+      summary: Advanced search across screams
+      description: |
+        Searches screams by `q` text query and optional filters (`intensity_range`, `duration_range`, `years`, `tags`, `exclude_tags`, `has_video`, `note`)
+        with pagination via `page`/`limit` and sorting via `sort_by`; returns `page`, `limit`, `total`, and `items` array of `GoatScream`.
+
+        **Musical note filtering:** Use `note` to filter by the primary pitch detected in the scream (e.g., `?note=G#5`).
+      parameters:
+        - in: query
+          name: q
+          description: Text query (title, context, or source)
+          schema:
+            type: string
+            maxLength: 200
+        - $ref: '#/components/parameters/IntensityRange'
+        - $ref: '#/components/parameters/DurationRange'
+        - $ref: '#/components/parameters/YearsRange'
+        - $ref: '#/components/parameters/Tags'
+        - $ref: '#/components/parameters/ExcludeTags'
+        - $ref: '#/components/parameters/HasVideo'
+        - $ref: '#/components/parameters/Note'
+        - $ref: '#/components/parameters/HasVideoSort'
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Search results
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SearchResults'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/stats:
+    get:
+      operationId: getStats
+      summary: Aggregated scream statistics
+      description: Returns totals in `total_screams`, maps in `by_year` and `by_source_type`, array `intensity_distribution`, and array of tag objects in `top_tags`.
+      responses:
+        '200':
+          description: Stats payload
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/StatsSummary'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+  /api/v1/submissions:
+    post:
+      operationId: submitScream
+      summary: Submit a new goat scream
+      description: Accepts multipart or JSON submissions with `title` and audio, returning queued submission info (`message`, `estimatedReview`, `submission`).
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              required:
+                - title
+              properties:
+                title:
+                  type: string
+                  description: Title for the submission
+                  minLength: 3
+                context:
+                  type: string
+                  description: Background or story for the clip
+                year:
+                  type: integer
+                  description: Year associated with the clip
+                  minimum: 1900
+                  maximum: 2100
+                audio:
+                  type: string
+                  format: binary
+                  description: Audio file upload
+                tags:
+                  type: string
+                  description: Comma-separated tags
+          application/json:
+            schema:
+              type: object
+              required:
+                - title
+                - audio_url
+              properties:
+                title:
+                  type: string
+                  description: Title for the submission
+                  minLength: 3
+                audio_url:
+                  type: string
+                  format: uri
+                  description: Remote audio URL to import
+                context:
+                  type: string
+                year:
+                  type: integer
+                  minimum: 1900
+                  maximum: 2100
+      responses:
+        '202':
+          description: Submission queued for review
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionAccepted'
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+    get:
+      operationId: listSubmissions
+      summary: List submissions
+      description: Returns paginated submissions filtered by `status` with `page`/`limit` controls; response includes `page`, `limit`, `total`, and `items` array of `Submission`.
+      parameters:
+        - $ref: '#/components/parameters/Status'
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Submission queue
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionPage'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/moderation/submissions:
+    get:
+      operationId: listSubmissionsForModeration
+      summary: List submissions for moderation
+      description: Moderation-only listing filtered by `status` with `page`/`limit` controls; response includes `page`, `limit`, `total`, and `items` array of `Submission`.
+      security:
+        - AdminToken: []
+      parameters:
+        - $ref: '#/components/parameters/Status'
+        - $ref: '#/components/parameters/Page'
+        - $ref: '#/components/parameters/Limit'
+      responses:
+        '200':
+          description: Submission list
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/SubmissionPage'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/moderation/submissions/{id}/approve:
+    patch:
+      operationId: approveSubmission
+      summary: Approve and promote a submission
+      description: Promotes a submission identified by `id`, optionally overriding `meme_status`, `tags`, `license_*`, `title`, `source_type`, and `goat_scream_id`; responds with `message`, `goat_scream_id`, and `media_url`.
+      security:
+        - AdminToken: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Submission identifier
+          schema:
+            type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                meme_status:
+                  type: string
+                tags:
+                  type: string
+                  description: Comma-separated tags to apply
+                license_type:
+                  type: string
+                license_url:
+                  type: string
+                  format: uri
+                attribution_required:
+                  type: boolean
+                attribution_text:
+                  type: string
+                review_notes:
+                  type: string
+                goat_scream_id:
+                  type: string
+                source_type:
+                  type: string
+                title:
+                  type: string
+      responses:
+        '200':
+          description: Submission approved
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  goat_scream_id:
+                    type: string
+                  media_url:
+                    type: string
+                    format: uri
+                required:
+                  - message
+        '400':
+          $ref: '#/components/responses/ValidationError'
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'
+  /api/v1/moderation/submissions/{id}/reject:
+    patch:
+      operationId: rejectSubmission
+      summary: Reject a submission
+      description: Rejects a submission identified by `id`, with optional `review_notes` and `delete_media` toggle; responds with `message` and `id`.
+      security:
+        - AdminToken: []
+      parameters:
+        - in: path
+          name: id
+          required: true
+          description: Submission identifier
+          schema:
+            type: string
+      requestBody:
+        required: false
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                review_notes:
+                  type: string
+                delete_media:
+                  type: boolean
+      responses:
+        '200':
+          description: Submission rejected
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  id:
+                    type: string
+                required:
+                  - message
+                  - id
+        '400':
+          $ref: '#/components/responses/ValidationError'
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                  id:
+                    type: string
+                required:
+                  - message
+                  - id
+        '401':
+          $ref: '#/components/responses/Unauthorized'
+        '404':
+          $ref: '#/components/responses/NotFound'
+        '429':
+          $ref: '#/components/responses/RateLimited'
+        '500':
+          $ref: '#/components/responses/ServerError'

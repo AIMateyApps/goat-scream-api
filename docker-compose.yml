@@ -1,0 +1,43 @@
+version: '3.9'
+
+services:
+  mongo:
+    image: mongo:7
+    restart: unless-stopped
+    ports:
+      - '27017:27017'
+    volumes:
+      - mongo-data:/data/db
+
+  mongo-express:
+    image: mongo-express:1
+    restart: unless-stopped
+    ports:
+      - '8081:8081'
+    environment:
+      ME_CONFIG_MONGODB_URL: mongodb://mongo:27017/goatscreams
+      ME_CONFIG_BASICAUTH_USERNAME: admin
+      ME_CONFIG_BASICAUTH_PASSWORD: admin
+    depends_on:
+      - mongo
+
+  api:
+    build:
+      context: .
+      args:
+        BUILD_TIME: ${BUILD_TIME:-local}
+        COMMIT_SHA: ${COMMIT_SHA:-dev}
+    environment:
+      PORT: 3000
+      NODE_ENV: production
+      MONGODB_URI: mongodb://mongo:27017/goatscreams
+      ADMIN_TOKEN: ${ADMIN_TOKEN:-local-admin}
+      CLOUDINARY_URL: ${CLOUDINARY_URL:-}
+    ports:
+      - '3000:3000'
+    depends_on:
+      - mongo
+    restart: unless-stopped
+
+volumes:
+  mongo-data:
