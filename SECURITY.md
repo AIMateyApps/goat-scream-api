@@ -12,7 +12,7 @@ We generally release fixes on `main` and backport if the change is critical and 
 
 ## Reporting a vulnerability
 
-Send security issues to **security@bleatbox.dev** (PGP optional). Include:
+Send security issues to **security@goatscreams.com** (PGP optional). Include:
 
 - Steps to reproduce
 - Impact assessment (data exposure, denial of service, etc.)

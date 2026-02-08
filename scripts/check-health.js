@@ -18,7 +18,7 @@ async function notifySlack(message) {
 }
 
 async function main() {
-  const url = process.env.HEALTH_URL || 'https://api.bleatbox.dev/health';
+  const url = process.env.HEALTH_URL || 'https://api.goatscreams.com/health';
   const res = await fetch(url);
   if (!res.ok) {
     const message = `Health endpoint returned ${res.status}`;

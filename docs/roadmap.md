@@ -454,7 +454,7 @@ The audit confirmed these areas are production-ready:
 
 ### V1 Launch Snapshot (2025-10-22)
 
-- ✅ API deployed on Railway (Pro tier) with MongoDB Atlas + Cloudinary: https://api.bleatbox.dev
+- ✅ API deployed on Railway (Pro tier) with MongoDB Atlas + Cloudinary: https://api.goatscreams.com
 - ✅ TLS + custom domain live; `/health`, `/docs/`, and `/playground/` verified over HTTPS
 - ✅ Production env vars set: `MONGODB_URI`, granular Cloudinary keys, `ADMIN_TOKEN`, `PORT`, `NODE_ENV=production`
 - ✅ Production database restored from local dump (371 approved screams) and parity confirmed via `pnpm run sync:audit`
@@ -505,9 +505,9 @@ Heavier launch tasks that support a more formal announcement; keep them if we’
 
 ### Public Exposure (Prod)
 
-- ✅ Deployed to Railway (containerized via Dockerfile) with `api.bleatbox.dev` fronted by Railway-managed TLS
+- ✅ Deployed to Railway (containerized via Dockerfile) with `api.goatscreams.com` fronted by Railway-managed TLS
 - ✅ Production env configured (Atlas URI, Cloudinary keys, `ADMIN_TOKEN`, rate-limit defaults)
-- ✅ `curl https://api.bleatbox.dev/health` returns `db.connected: true`
+- ✅ `curl https://api.goatscreams.com/health` returns `db.connected: true`
 - ✅ `/docs/` and `/playground/` reachable publicly
 - ✅ Monitoring/alerts: GitHub Action runs scheduled health check with optional Slack webhook
 - ⬜️ Review rate-limit defaults after first week of traffic; adjust via env if usage spikes

@@ -65,7 +65,7 @@ info:
     ```
     Returns screams matching "goat" **AND** intensity 7-10 **AND** tagged "funny" **AND** from 2020-2024, sorted by intensity.
 servers:
-  - url: https://api.bleatbox.dev
+  - url: https://api.goatscreams.com
     description: Production server
 components:
   securitySchemes:

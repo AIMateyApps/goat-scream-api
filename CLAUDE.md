@@ -9,7 +9,7 @@ Goat Screams API is a production-ready Express.js service that serves curated go
 - **Static mode** (default): Serves from `data/screams-public.json` - no external dependencies
 - **Full-stack mode**: MongoDB + Cloudinary integration for user submissions and moderation
 
-The API runs at https://api.bleatbox.dev in production.
+The API runs at https://api.goatscreams.com in production.
 
 ## Common Commands
 

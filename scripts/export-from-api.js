@@ -6,7 +6,7 @@ const path = require('path');
 const axios = require('axios');
 
 const OUTPUT_PATH = path.resolve(__dirname, '../data/screams-public.json');
-const API_BASE = process.env.EXPORT_API_BASE || 'https://api.bleatbox.dev';
+const API_BASE = process.env.EXPORT_API_BASE || 'https://api.goatscreams.com';
 const PAGE_SIZE = Number(process.env.EXPORT_PAGE_SIZE || 100);
 
 // Help text
@@ -18,7 +18,7 @@ Usage:
   node scripts/export-from-api.js [--help]
 
 Environment Variables:
-  EXPORT_API_BASE      API base URL (default: https://api.bleatbox.dev)
+  EXPORT_API_BASE      API base URL (default: https://api.goatscreams.com)
   EXPORT_PAGE_SIZE     Page size for pagination (default: 100)
 
 Output:

@@ -24,7 +24,7 @@
 
 - ✅ **Production API & env confirmed**
   - **Status**: Complete
-  - **Evidence**: Live at `api.bleatbox.dev`, health endpoint works, all endpoints tested
+  - **Evidence**: Live at `api.goatscreams.com`, health endpoint works, all endpoints tested
 
 - ✅ **Public docs verified**
   - **Status**: Complete
@@ -396,11 +396,11 @@ Use this space to document decisions, blockers, and progress:
 
 **Uptime Monitoring Setup**:
 
-- **Health endpoints**: `/health` (liveness) and `/ready` (readiness) available at `https://api.bleatbox.dev/health` and `https://api.bleatbox.dev/ready`
+- **Health endpoints**: `/health` (liveness) and `/ready` (readiness) available at `https://api.goatscreams.com/health` and `https://api.goatscreams.com/ready`
 - **Recommended services**: UptimeRobot (free tier: 50 monitors), Better Uptime (free tier: 10 monitors), or Pingdom
 - **Setup steps**:
   1. Sign up for monitoring service
-  2. Add monitor for `https://api.bleatbox.dev/health` (check every 5 minutes)
+  2. Add monitor for `https://api.goatscreams.com/health` (check every 5 minutes)
   3. Configure alert: email/Slack if down for 5+ minutes
   4. Optional: Add `/ready` endpoint monitor for deeper health checks
 

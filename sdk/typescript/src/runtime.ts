@@ -13,7 +13,7 @@
  */
 
 
-export const BASE_PATH = "https://api.bleatbox.dev".replace(/\/+$/, "");
+export const BASE_PATH = "https://api.goatscreams.com".replace(/\/+$/, "");
 
 export interface ConfigurationParameters {
     basePath?: string; // override base path

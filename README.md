@@ -9,7 +9,7 @@
 
 This is a **teaching repository** demonstrating how a production-ready Express.js API is wired: graceful shutdowns, health checks, caching, circuit breakers, and observability—while delivering sheer goat-powered delight.
 
-**Landing page & interactive playground**: [bleatbox.app/goat-scream-api](https://bleatbox.app/goat-scream-api)
+**Landing page & interactive playground**: [goatscreams.com/goat-scream-api](https://goatscreams.com/goat-scream-api)
 
 ## Table of contents
 
@@ -108,7 +108,7 @@ import { DefaultApi, Configuration } from '@goatscreams/client';
 
 const api = new DefaultApi(
   new Configuration({
-    basePath: 'https://api.bleatbox.dev',
+    basePath: 'https://api.goatscreams.com',
   })
 );
 
@@ -194,7 +194,7 @@ The runtime ships with production guardrails you can lean on out of the box:
 
 ```yaml
 env:
-  HEALTH_URL: https://api.bleatbox.dev/health
+  HEALTH_URL: https://api.goatscreams.com/health
   HEALTH_REQUIRE_DB: false
 ```
 
@@ -229,7 +229,7 @@ A `.env.example` lives at the repo root—copy it to `.env` and tweak as needed.
 | -------------------------- | ------------------------------------------------- | --------------------------------------- |
 | `PORT`                     | Local server port                                 | `3000`                                  |
 | `NODE_ENV`                 | Environment label for logs/tooling                | `development`                           |
-| `HEALTH_URL`               | Target URL for CI health checks                   | `https://api.bleatbox.dev/health`       |
+| `HEALTH_URL`               | Target URL for CI health checks                   | `https://api.goatscreams.com/health`       |
 | `HEALTH_PENDING_THRESHOLD` | Pending requests tolerated before `/health` warns | `100`                                   |
 | `HEALTH_REQUIRE_DB`        | Require DB connectivity for `/health`             | `false`                                 |
 | `SMOKE_REQUIRE_DB`         | Require DB during smoke tests                     | `false`                                 |
@@ -292,7 +292,7 @@ Confirm the server is running at `http://localhost:3000` and your client sees 20
 
 - Read the [Code of Conduct](CODE_OF_CONDUCT.md) before filing issues or PRs.
 - Need help? Follow the triage paths in [SUPPORT.md](SUPPORT.md).
-- Security concern? Email `security@bleatbox.dev` and review [SECURITY.md](SECURITY.md).
+- Security concern? Email `security@goatscreams.com` and review [SECURITY.md](SECURITY.md).
 
 ## Maintainers
 

@@ -65,7 +65,7 @@ If you have a live API running and want to refresh the snapshot without MongoDB:
 pnpm run export:api
 ```
 
-This pulls from the live API endpoint (defaults to `https://api.bleatbox.dev`) and writes to `data/screams-public.json`. Useful when you don't have local MongoDB access.
+This pulls from the live API endpoint (defaults to `https://api.goatscreams.com`) and writes to `data/screams-public.json`. Useful when you don't have local MongoDB access.
 
 ## Export Scripts Explained
 
@@ -101,7 +101,7 @@ This pulls from the live API endpoint (defaults to `https://api.bleatbox.dev`) a
 
 **Configuration:**
 
-- `EXPORT_API_BASE`: API base URL (default: `https://api.bleatbox.dev`)
+- `EXPORT_API_BASE`: API base URL (default: `https://api.goatscreams.com`)
 - `EXPORT_PAGE_SIZE`: Page size for pagination (default: `100`)
 
 ## Default API Workflow (No MongoDB)

@@ -19,7 +19,7 @@ Use the issue templates if available. Include logs, curl repro steps, and your O
 
 ## Security incidents
 
-Email `security@bleatbox.dev` instead of opening an issue. See [SECURITY.md](SECURITY.md) for details.
+Email `security@goatscreams.com` instead of opening an issue. See [SECURITY.md](SECURITY.md) for details.
 
 ## Response times
 

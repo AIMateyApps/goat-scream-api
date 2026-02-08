@@ -4,5 +4,5 @@ contact_links:
     url: https://github.com/AIMateyApps/goat-scream-api/discussions
     about: Start a Discussion for guidance, demos, or pairing.
   - name: Security reports
-    url: mailto:security@bleatbox.dev
+    url: mailto:security@goatscreams.com
     about: Please report vulnerabilities privately.
