@@ -200,9 +200,10 @@ app.get('/ready', async (req, res) => {
   });
 });
 
-// Redirect root to Bleatbox landing page (site moved to Bleatbox PWA)
+// Redirect root to Goat Screams developer landing page
 app.get('/', (req, res) => {
-  res.redirect(301, 'https://bleatbox.app/goat-scream-api');
+  res.redirect(301, 'https://goatscreams.com/developer');
+});
 });
 
 // Static file serving - after health/ready endpoints (serves docs, 404.html, favicons)
