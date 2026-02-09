@@ -229,7 +229,7 @@ A `.env.example` lives at the repo root—copy it to `.env` and tweak as needed.
 | -------------------------- | ------------------------------------------------- | --------------------------------------- |
 | `PORT`                     | Local server port                                 | `3000`                                  |
 | `NODE_ENV`                 | Environment label for logs/tooling                | `development`                           |
-| `HEALTH_URL`               | Target URL for CI health checks                   | `https://api.goatscreams.com/health`       |
+| `HEALTH_URL`               | Target URL for CI health checks                   | `https://api.goatscreams.com/health`    |
 | `HEALTH_PENDING_THRESHOLD` | Pending requests tolerated before `/health` warns | `100`                                   |
 | `HEALTH_REQUIRE_DB`        | Require DB connectivity for `/health`             | `false`                                 |
 | `SMOKE_REQUIRE_DB`         | Require DB during smoke tests                     | `false`                                 |
