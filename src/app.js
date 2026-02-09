@@ -35,7 +35,6 @@ const cspDirectives = {
     "'self'",
     'https://res.cloudinary.com',
     'https://api.goatscreams.com',
-    'https://api.bleatbox.dev',
     'http://localhost:3000',
   ],
 };
