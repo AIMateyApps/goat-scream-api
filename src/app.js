@@ -203,7 +203,7 @@ app.get('/ready', async (req, res) => {
 
 // Redirect root to Goat Screams developer landing page
 app.get('/', (req, res) => {
-  res.redirect(301, 'https://goatscreams.com/developer');
+  res.redirect(301, '/developer');
 });
 
 // Static file serving - after health/ready endpoints (serves docs, 404.html, favicons)
